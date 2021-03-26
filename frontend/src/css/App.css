@@ -1,0 +1,119 @@
+.text-s1 {
+  letter-spacing: normal;
+  font-weight: 700;
+  font-size: 6rem;
+  text-transform: none;
+  margin: 0;
+  color: #fff;
+  margin-top: 20%;
+  margin-left: 10%;
+}
+.text-s1-2 {
+  letter-spacing: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: none;
+  margin: 0;
+  color: #fc4c59;
+  margin-top: 40%;
+}
+
+.text-s1-sub {
+  letter-spacing: normal;
+  margin: 0;
+  color: #fff;
+  margin-left: 10%;
+}
+
+#image-background-first {
+  background-image: url(/src/images/First.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 700px;
+}
+
+.text-focus-in {
+  -webkit-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+      both,
+    slideInLeft 1s;
+  animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both,
+    slideInLeft 1s;
+}
+.text-focus-end {
+  -webkit-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+      both,
+    slideInRight 1s;
+  animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both,
+    slideInRight 1s;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slideInRight {
+  0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes slideInRight {
+  0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
