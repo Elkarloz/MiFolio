@@ -8,17 +8,6 @@
   margin-top: 20%;
 }
 
-.text-s1-2 {
-  letter-spacing: normal;
-  font-weight: 700;
-  font-size: 1.2rem;
-  text-transform: none;
-  margin: 0;
-  color: #fc4c59;
-  margin-top: 60%;
-  margin-left: 25%;
-}
-
 .night {
   background: linear-gradient(to bottom, #111936, #285a7b);
   border-color: #e9e5d5;

@@ -31,7 +31,7 @@ const Timing = () => {
           className="img-boat"
         />
       </div>
-      <h1 className="text-s1-2 text-focus-end">MI PORTAFOLIO</h1>
+      <h4 className="text-s1-2">MI PORTAFOLIO</h4>
     </div>
   );
 };
