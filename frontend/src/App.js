@@ -48,7 +48,7 @@ function App() {
                   </div>
 
                   <div
-                    className="col-md-6 text-focus-end row justify-content-center"
+                    className="col-md-6 text-focus-end row justify-content-center section-primary"
                     id="item-rigth"
                   >
                     <Timing />
